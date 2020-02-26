@@ -1,0 +1,8 @@
+node_modules
+dev
+.eslintrc.json
+.prettierrc.json
+.gitignore
+custom-elements.json
+*-error.log
+
