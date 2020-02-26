@@ -1,0 +1,11 @@
+*.log
+.github/
+.storybook/
+src/
+static/
+tests/
+.idea
+.eslintrc.json
+.prettierrc.json
+yarn.lock
+package-lock.json
