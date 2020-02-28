@@ -1,6 +1,6 @@
 {
   "name": "@raisiqueira/lit-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "license": "MIT",
@@ -12,14 +12,20 @@
     "analyze": "wca analyze \"src/**/*.ts\" --outFile custom-elements.json",
     "serve": "es-dev-server --app-index dev/index.html --node-resolve --watch",
     "format": "prettier src/**.{js,ts} --write",
-    "lint": "lit-analyzer && eslint 'src/**/*.ts'"
+    "lint": "lit-analyzer && eslint 'src/**/*.ts'",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "lit-element": "^2.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@storybook/html": "^5.3.14",
+    "@storybook/web-components": "^5.3.14",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
+    "babel-loader": "^8.0.6",
     "concurrently": "^5.1.0",
     "es-dev-server": "^1.40.1",
     "lit-analyzer": "^1.1.9",
