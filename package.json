@@ -1,5 +1,5 @@
 {
-  "name": "poc-lit-elements",
+  "name": "@raisiqueira/lit-button",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -27,5 +27,8 @@
     "ts-lit-plugin": "^1.1.9",
     "typescript": "^3.8.2",
     "web-component-analyzer": "^1.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
