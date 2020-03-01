@@ -1,10 +1,22 @@
 {
   "name": "@raisiqueira/lit-button",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "description": "A simple web component",
+  "repository": "https://github.com/raisiqueira/poc-lit-element",
+  "bugs": {
+    "url": "https://github.com/raisiqueira/poc-lit-element/issues"
+  },
+  "keywords": [
+    "justa pagamentos",
+    "justa",
+    "web components",
+    "lit element",
+    "design-system"
+  ],
   "scripts": {
     "dev": "concurrently \"npm:build:watch\" \"npm:serve\"",
     "build": "tsc",
@@ -21,6 +33,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
+    "@storybook/addon-a11y": "^5.3.14",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-docs": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-options": "^5.3.14",
+    "@storybook/addon-storysource": "^5.3.14",
+    "@storybook/addon-viewport": "^5.3.14",
     "@storybook/html": "^5.3.14",
     "@storybook/web-components": "^5.3.14",
     "@typescript-eslint/eslint-plugin": "^2.21.0",

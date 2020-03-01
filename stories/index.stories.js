@@ -1,13 +1,24 @@
+import { withA11y } from '@storybook/addon-a11y';
+import { html } from 'lit-element';
+import '../dist/index'
+
 export default {
-  title: 'Demo',
+  title: 'Button',
+  decorators: [withA11y],
+  component: 'jst-button',
+  parameters: {
+    options: { selectedPanel: 'storybook/a11y/panel' },
+  },
 };
 
-export const Heading = () => '<h1>Hello World</h1>';
+export const BasicButton = () => html`
+  <jst-button>A simple button</jst-button>
+`;
 
-export const Button = () => {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.innerText = 'Hello Button';
-  btn.addEventListener('click', e => console.log(e));
-  return btn;
-};
+export const PrimaryButton = () => html`
+  <jst-button primary>Primary button</jst-button>
+`;
+
+export const DisabledButton = () => html`
+  <jst-button primary disabled>Disabled button</jst-button>
+`;
