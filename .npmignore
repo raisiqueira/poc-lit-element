@@ -7,5 +7,6 @@ tests/
 .idea
 .eslintrc.json
 .prettierrc.json
+.gitignore
 yarn.lock
 package-lock.json
