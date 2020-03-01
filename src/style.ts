@@ -4,6 +4,11 @@ export const JstButtonStyle = css`
   :host {
     --color-primary: #076e95;
   }
+  
+  :host([primary]) .button {
+    background-color: var(--color-primary, #076e95);
+    color: white;
+  }
 
   .button {
     padding: 0.6875rem 1.125rem;

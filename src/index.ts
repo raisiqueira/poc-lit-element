@@ -6,13 +6,16 @@ export class JstButton extends LitElement {
   @property({type: Boolean})
   disabled = false;
 
+  @property({type: Boolean})
+  primary = false;
+
   static get styles() {
     return [JstButtonStyle];
   }
 
   render() {
     return html`
-      <button class="button jst-button" ?disabled="${this.disabled}">
+      <button class="button" ?primary="${this.primary}" ?disabled="${this.disabled}">
         <slot></slot>
       </button>
     `;
