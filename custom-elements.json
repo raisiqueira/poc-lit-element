@@ -9,12 +9,23 @@
           "name": "disabled",
           "type": "boolean",
           "default": "false"
+        },
+        {
+          "name": "primary",
+          "type": "boolean",
+          "default": "false"
         }
       ],
       "properties": [
         {
           "name": "disabled",
           "attribute": "disabled",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "primary",
+          "attribute": "primary",
           "type": "boolean",
           "default": "false"
         }
