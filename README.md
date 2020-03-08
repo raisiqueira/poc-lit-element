@@ -15,15 +15,20 @@ yarn add @raisiqueira/lit-button
 ## Usage
 
 ```html
+<script type="module">
+  import 'https://unpkg.com/@raisiqueira/lit-button@1.0.3/dist/index.js';
+</script>
 <jst-button>Hey button</jst-button>
 ```
 
+See a real example on [Storybook](https://rs-lit-button.netlify.com)
+
 ### Props
 
-| Prop | type | default |
-|------|------|---------|
-| disabled | boolean | false |
-| primary | boolean | false |
+| Prop     | type    | default |
+| -------- | ------- | ------- |
+| disabled | boolean | false   |
+| primary  | boolean | false   |
 
 ## Running the project (all commands available)
 
