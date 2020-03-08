@@ -10,3 +10,8 @@ tests/
 .gitignore
 yarn.lock
 package-lock.json
+babel.config.js
+rollup.config.js
+stories
+dev
+storybook-static
